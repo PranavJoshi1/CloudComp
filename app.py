@@ -21,6 +21,3 @@ def fahrenheit_from(celsius):
     fahrenheit = float(celsius) * 9 / 5 + 32
     fahrenheit = round(fahrenheit, 3)  # Round to three decimal places
     return str(fahrenheit)
-
-if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=8080, debug=True)
